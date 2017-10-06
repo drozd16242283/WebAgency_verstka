@@ -1,0 +1,138 @@
+.studio {
+	width: 1500px;
+	height: 1120px;
+}
+
+.studio-content {
+	width: 90%;
+	height: 85%;
+	padding-top: 229px;
+}
+
+.about-studio {
+	position: relative;
+	
+	h2 {
+		float: left;
+		width: 177px;
+		height: 44px;
+		color: #000000;
+		font: 700 48px/30px 'Helvetica';
+		letter-spacing: 2px;
+	}
+	
+	h1 {
+		margin: 0 auto;
+		width: 580px;
+		height: 247px;
+		opacity: 0.19;
+		color: #c1c1c1;
+		font: 700 340px/30px 'TahomaBold';
+		text-transform: uppercase;
+	}
+	
+	p {
+		position: absolute;
+		top: -16%;
+		left: 32%;
+		width: 770px;
+		height: 139px;
+		opacity: 0.8;
+		color: #000000;
+		font: 400 20px/30px 'Arial';
+		letter-spacing: 1px;
+		text-align: left;
+	}
+}
+
+.main-specializations {	
+	height: 30%;
+	margin-top: 100px;
+	
+	.main-spec {
+		float: left;
+		margin-right: 50px;
+		
+		h5 {
+			color: #000000;
+			font: 700 20px/26px 'Arial';
+			letter-spacing: 2px;
+		}
+		
+		p {
+			color: #000000;
+			font: 400 15px/25px 'Arial';
+			letter-spacing: 1px;
+		}
+	}
+	
+	.spec-1 {
+		padding: 4px 0 0 55px;
+		
+		h5, p { margin: 0; } 
+		
+		p { 
+			width: 403px;
+			height: 175px;
+			padding-top: 7px;
+		}
+	}
+	
+	.spec-2 {
+		padding: 4px 0 0 1px;
+		
+		h5 {
+			width: 150px;
+			margin: 17px 2px;
+		}
+		
+		p {
+			width: 372px;
+			margin-top: -11px;
+		}
+	}
+	
+	.spec-3 {
+		width: 399px;
+		height: 344px;
+		margin: -8px 0 0 -38px;
+		background-color: #f6ae48;
+		
+		.spec-lifeline {
+			padding: 12px 0 0 17px;
+		}
+		
+		h5, p { color: #ffffff; }
+		
+		h5 {
+			margin: 15px 0 0 22px;
+		}
+		
+		p {
+			width: 90%;
+			padding-left: 25px;
+			margin-top: 9px;
+		}
+		
+		.support-price {
+			float: left;
+			width: 128px;
+			height: 36px;
+			border: 2px solid #ffffff;
+			margin: 7px 0 0 25px;
+			
+			span {
+				padding: 10px 0 0 16px;
+				color: #ffffff;
+				font: 400 18px/40px 'MyriadPro';
+				letter-spacing: 1px;
+			}
+		}
+		
+		figure {
+			width: 22px;
+			height: 22px;
+			float: right;
+		}
+	}
+}

@@ -1,0 +1,161 @@
+$iconsPath: '../../icons';
+
+
+.banner {
+	width: 1500px;
+	height: 810px;
+}
+
+.content-wrap {
+	height: 100%;
+	border: 0;
+	background-image: url(#{$iconsPath}/header-bg.png);
+	opacity: 0.67;
+}
+
+.header-content {
+	padding-top: 208px;
+	width: 1200px;
+	height: 65%;
+	
+	h1 {
+		width: 1206px;
+		height: 115px;
+		color: #ffffff;
+		font-family: "Parangon530C";
+		font-size: 48px;
+		font-weight: 400;
+		line-height: 72px;
+		text-align: center;
+		word-spacing: 3px;
+		letter-spacing: 2px;
+		margin-top: 0;
+	}
+	
+	p {
+		width: 831px;
+		height: 95px;
+		color: #ffffff;
+		font-family: "PTSans";
+		font-size: 24px;
+		line-height: 36px;
+		text-align: center;
+		padding: 18px 0 0 175px;		
+		word-spacing: 1px;
+		letter-spacing: 1px;
+	}
+	
+	.header-statistics {
+		width: 960px;
+		padding: 50px 0 0 93px;
+		
+		.statistic {
+			position: relative;
+			float: left;
+			width: 250px;
+			height: 157px;
+			border: 2px solid #fff;
+			margin-right: 56px;
+			
+			img {
+				position: absolute;
+				top: -10%;
+				left: 43%;
+			}
+			
+			h2 {
+				width: 99px;
+				height: 35px;
+				color: #ffffff;
+				font-family: "Parangon530C";
+				font-size: 48px;
+				font-weight: 400;
+				line-height: 30px;
+				margin-bottom: 0;
+				padding: 15px 0 0 70px;
+				letter-spacing: 2px;
+			}
+			
+			h6 {
+				color: #ffffff;
+				font-family: "PTSans";
+				font-size: 18px;
+				line-height: 36px;
+				margin: 0;
+			}
+		}
+		
+		.services {
+			img {
+				left: 42%;
+			}
+			
+			h2 {
+				padding: 17px 0 0 60px;
+				letter-spacing: 3px;
+			}
+			
+			h6 {
+				width: 166px;
+				height: 14px;
+				padding-left: 33px;
+				letter-spacing: 1px;
+			}
+		}
+		
+		.projects {
+			h6 {
+				width: 89px;
+				height: 14px;
+				padding-left: 77px;
+				letter-spacing: 1px;
+			}
+		}
+		
+		.clients {
+			h6 {
+				width: 216px;
+				height: 10px;
+				padding: 3px 0 0 18px;
+				letter-spacing: 1px;
+			}
+		}
+	}
+}
+
+.menu {
+	height: 100px;
+}
+
+.navigation {
+	float: right;
+	
+	ul {
+		margin: 0;
+		padding: 35px 100px;
+		
+		li {
+		display: inline-block;
+		margin-right: 29px;
+		
+			a {
+				color: #000000;
+				font: 400 30px/30px 'FuturaPT';
+				letter-spacing: 1px;
+				word-spacing: 1px;
+				
+				&:hover {
+					color: #f6ae48;
+				}
+			}
+		}
+	}
+}
+
+.line {
+	clear: both;
+	width: 1500px;
+	height: 2px;
+	background-color: #000000;
+	opacity: 0.32;
+}

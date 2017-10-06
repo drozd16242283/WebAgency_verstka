@@ -1,0 +1,134 @@
+$iconsPath: '../../icons';
+
+.trade-in {
+	width: 1500px;
+	height: 676px;
+	margin-top: 175px;
+	background-image: url(#{$iconsPath}/trade-in-bg.png);
+}
+
+.trade-in-header {
+	padding-left: 41%;
+	letter-spacing: 3px;
+	
+	h1 {
+		margin: 0;
+		padding-top: 49px;
+		color: #ffffff;
+		font: 400 48px/72px 'Parangon530C';
+		text-transform: uppercase;
+		
+		em {
+			@extend h1;
+			font-family: 'UniSans';
+		}
+	}
+}
+
+.trade-in-content {
+	width: 1400px;
+	padding: 35px 0 0 75px;
+	
+	&:after {
+		content: '';
+		display: table;
+		clear: both;
+	}
+	
+	.trade-in-blocks {
+		float: left;
+		
+		img {
+			float: left;
+		}
+			
+		h1 {
+			margin-bottom: -15px;
+			color: #ffffff;
+			font: 400 30px/72px 'Parangon530C';
+			text-transform: uppercase;
+		}
+		
+		p {
+			color: #ffffff;
+			font: 400 18px/30px 'Arial';
+			letter-spacing: 1px;
+		}
+	}
+	
+	.program {
+		width: 413px;
+		
+		img {
+			padding: 24px 18px 0 5px;	
+		}
+		
+		h1 {
+			letter-spacing: 2px;
+		}
+		
+		p {
+			padding-left: 6px;
+			word-spacing: -1px;
+		}
+	}
+	
+	.process {
+		width: 460px;
+		
+		img {
+			padding: 18px 10px 0 13px;
+		}
+		
+		h1 {
+			letter-spacing: 2px;
+			word-spacing: -4px;
+		}
+		
+		p {
+			padding-left: 50px;
+			word-spacing: -2px;
+		}
+	}
+	
+	.conditions {
+		width: 450px;
+		padding-left: 43px;
+		
+		img {
+			padding: 36px 27px 0 0;
+		}
+		
+		h1 {
+			padding-top: 3px;
+			letter-spacing: 1px;
+		}
+		
+		p {
+			margin-top: 15px;
+			word-spacing: -1px;
+		}
+	}
+}
+
+.rate-my-site {
+	width: 330px;
+	height: 64px;
+	background-color: #f6ae48;
+	border-radius: 20px;
+	margin: -6px 0 0 582px;
+	
+	a {
+		cursor: pointer;
+		
+		p {
+			color: #ffffff;
+			font: 400 24px/72px 'Parangon530C';
+			text-transform: uppercase;
+			text-align: center;
+			margin: 0;
+			letter-spacing: 1px;
+			word-spacing: 1px;
+		}
+	}
+}

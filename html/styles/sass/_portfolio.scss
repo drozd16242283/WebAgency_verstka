@@ -1,0 +1,58 @@
+.portfolio {
+	margin-top: 117px;
+	width: 1500px;
+	height: 987px;
+}
+
+.our-projects {
+	position: relative;
+	width: 100%;
+	height: 120px;
+	background-color: #303263;
+	
+	h1 {
+		position: absolute;
+		top: 22%;
+		left: 22%;
+		letter-spacing: 6px;
+		margin: 0;
+		width: 813px;
+		height: 73px;
+		opacity: 0.34;
+		color: #ffffff;
+		font: 700 96px/60px 'Tahoma';
+		text-align: center;
+		text-transform: uppercase;
+	}
+	
+	h3 {
+		position: absolute;
+		top: 25%;
+		left: 35%;
+		letter-spacing: 2px;
+		word-spacing: -3px;
+		width: 465px;
+		height: 27px;
+		color: #ffffff;
+		font: 400 36px/72px 'Parangon530C';
+		margin: 0;
+	}
+}
+
+.projects-img {
+	img {
+		float: left;
+	}
+}
+
+.more-projects {
+	clear: both;
+	width: 100%;
+	height: 120px;
+	background-color: #303263;
+	
+	img {
+		padding: 27px 0 0 42%;
+	}
+}
+

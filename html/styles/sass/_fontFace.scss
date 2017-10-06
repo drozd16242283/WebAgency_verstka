@@ -1,0 +1,17 @@
+@mixin fontFace($family, $file) {
+	$filePath: '../../fonts/#{$file}';
+	@font-face {
+		font-family: $family;
+		src: url($filePath);
+	}
+}
+
+@include fontFace('Parangon530C', 'Parangon_530C.otf');
+@include fontFace('Arial', 'arial.ttf');
+@include fontFace('TahomaBold', 'Tahoma.ttf');
+@include fontFace('UniSans', 'UniSansHeavyCAPS.otf');
+@include fontFace('FuturaPT', 'FuturaPT.otf');
+@include fontFace('MyriadPro', 'MyriadPro.otf');
+@include fontFace('Helvetica', 'Helveticaneuecyr.otf');
+@include fontFace('PTSans', 'PTSans.ttf');
+@include fontFace('Exo2', 'Exo2-Bold.otf');

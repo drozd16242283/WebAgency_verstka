@@ -1,0 +1,204 @@
+$iconsPath: '../../icons';
+
+
+.developing {
+	width: 1500px;
+	height: 1200px;
+}
+
+
+/* === Our Credo === */
+.our-credo {
+	width: 100%;
+	height: 566px;
+	background-image: url(#{$iconsPath}/our-credo.png);
+}
+
+.credo-text {
+	width: 70%;
+	padding-top: 126px;
+	
+	h1 {
+		width: 730px;
+		height: 52px;
+		color: #ffffff;
+		font: 700 50px/48px 'Exo2';
+		text-align: center;
+		letter-spacing: 2px;
+		word-spacing: 3px;
+		padding-left: 150px;
+		margin: 0;
+	}
+	
+	p {
+		width: 1078px;
+		height: 167px;
+		color: #ffffff;
+		font: 400 24px/36px 'Helvetica';
+		text-align: center;
+		padding-top: 34px;
+		word-spacing: 3px;
+	}
+}
+
+/* === Web Developing Offers === */
+.web-developing-offers {
+	position: relative;
+	height: 650px;
+}
+
+.orange-square {
+	position: relative;
+	top: -43px;
+	width: 666px;
+	height: 526px;
+	background-color: #f6ae48;
+	
+	h2 {
+		position: absolute;
+		top: 19%;
+		left: 19%;
+		width: 333px;
+		height: 45px;
+		color: #ffffff;
+		font: 400 50px/30px 'Parangon530C';
+		letter-spacing: 2px;
+	}
+	
+	.position-spin {
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+}
+
+.dev-offers {
+	position: absolute;
+	top: 212px;
+	left: 188px;
+}
+
+.offer {
+	position: relative;
+	overflow: hidden;
+	display: inline-block;
+	margin-right: 16px;
+	width: 363px;
+	height: 315px;
+}
+
+.offer .overlay {
+	background: #484a42;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	transition: opacity, 0.3s;
+}
+
+.offer .overlay-caption {
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	width: 100%;
+	transform: translateY(-50%);
+}
+
+.offer h5,
+.offer p,
+.offer img {
+	transition: all, 0.5s;
+}
+
+.offer h5,
+.offer p {
+	color: #fff;
+    margin: 0;
+    opacity: 0; 
+}
+
+.offer h5 {
+	margin-bottom: 5px;
+    transform: translate3d(0, -200%, 0); 
+}
+
+.offer p {
+	transform: translate3d(0, 200%, 0); 
+
+}
+
+.offer-box:hover .overlay {
+	opacity: 0.65;
+}
+
+.work-box:hover .overlay h5,
+.work-box:hover .overlay p {
+	opacity: 1;
+	transform: translate3d(0,0,0);
+}
+
+
+.web-site {
+	background-image: url(#{$iconsPath}/web-site.png);
+}
+
+.internet-shop {
+	margin-left: -4px;
+	background-image: url(#{$iconsPath}/inet-shop.png);
+}
+
+.seo-info {
+	width: 1015px;
+	height: 466px;
+	margin: 62px 0 0 148px;	
+}
+
+.first-in-search {
+	position: relative;
+	
+	h2 {
+		position: absolute;
+		top: 30px;
+		left: 54px;
+		width: 383px;
+		height: 27px;
+		color: #060606;
+		font: 400 36px/72px 'Parangon530C';
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		word-spacing: -3px;
+		margin: 0;
+	}
+	
+	p {
+		margin: 10px 0 0 52px;
+		width: 570px;
+		height: 285px;
+		color: #000000;
+		font: 400 24px/48px 'Arial';
+		letter-spacing: 1px;
+		word-spacing: 1px;
+	}
+}
+
+.first-in-search-text {
+	width: 625px;
+	float: left;
+	margin-top: 29px;
+}
+
+.partners-logo {
+	float: right;
+	margin-right: -13px;
+}
+
+.yandex-logo {
+	margin: 33px 5px;
+}
+
+.google-logo {
+	display: block;
+	margin-left: 11px;
+}

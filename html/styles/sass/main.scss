@@ -1,0 +1,45 @@
+/* === Fonts === */
+@import 'fontFace';
+	
+/* === General Styles === */
+html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	@extend html;
+	font: 400 16px/1.4 'Roboto', sans-serif;
+}
+
+.wrapper {
+	margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* === Header === */
+@import 'header';
+
+/* === Studio === */
+@import 'studio';
+
+/* === Developing === */
+@import 'developing';
+
+/* === Portfolio === */
+@import 'portfolio';
+
+/* === Adaptate === */
+@import 'adaptate';
+
+/* === Trade-In === */
+@import 'trade-in';
+
+/* === Care === */
+@import 'care';
+
+/* === Footer-form === */
+@import 'footer-form';

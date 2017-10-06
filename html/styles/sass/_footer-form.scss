@@ -1,0 +1,123 @@
+$iconsPath: '../../icons';
+
+
+.footer-form {
+	width: 1500px;
+	height: 566px;
+	margin-top: 192px;
+	background-image: url(#{$iconsPath}/footer.png);
+}
+
+.footer-form-wrapper {
+	width: 80%;
+	height: 84%;
+	padding: 90px 0 0 52px;
+	
+	&:after {
+		content: '';
+		display: table;
+		clear: both;
+	}
+}
+
+.connect-with-us {
+	float: left;
+	width: 40%;
+	
+	h1 {
+		color: #ffffff;
+		font: 400 30px/72px 'Parangon530C';
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		word-spacing: 3px;
+	}
+	
+	p {
+		width: 355px;
+		height: 160px;
+		padding-top: 3px;
+		color: #ffffff;
+		font: 400 18px/27px 'Arial';
+		letter-spacing: 1px;
+		word-spacing: -1px;
+	}
+}
+
+.connection-form {
+	float: left;
+	width: 614px;
+	height: 260px;
+	margin: 38px 0 0 75px;
+	border-right: 4px solid #ffffff;
+	border-bottom: 4px solid #ffffff;
+	
+	input {
+		height: 40px;
+		padding: 0 20px;
+	}
+	
+	input[name="firstName"],
+	input[name="secoundName"] {
+		float: left;
+		height: 48px;
+		width: 50%;
+		box-sizing: border-box;
+	}
+	
+	input[name="email"] {
+		width: 93%;
+	}
+	
+	input, textarea {
+		background: transparent;
+		border-top: 4px solid #ffffff;
+		border-left: 4px solid #ffffff;
+		border-right: none;
+		border-bottom: none;
+		
+		&:active, &:focus {
+			outline: none;
+		}
+	}
+	
+	input, textarea,
+	input::placeholder, textarea::placeholder {
+		color: #ffffff;
+		font: 400 18px/30px 'Arial';
+	}
+	
+	textarea {
+		width: 93%;
+		height: 165px;
+		padding: 0 20px;
+		resize: none;
+	}
+	
+	p {
+		color: #ffffff;
+		font: 400 14px/24px 'Arial';
+		margin: 0;
+		padding: 6px 0 0 25px;
+		word-spacing: 5px;
+	}
+	
+	button[type="submit"] {
+		width: 143px;
+		height: 44px;
+		background-color: #f6ae48;
+		border-radius: 15px;
+		color: #ffffff;
+		font: 400 14px/44px 'Parangon530C';
+		border: none;
+		float: right;
+		margin-top: -17px;
+		text-transform: uppercase;
+		outline: none;
+		cursor: pointer;
+	}
+}
+
+.footer-line {
+	height: 108px;
+	background-color: #f6ae48;
+}
